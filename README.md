@@ -3,7 +3,7 @@
 Welcome to the **Super Counter Metronome**!
 This is a silly little personal project I made to help myself land Super Counters more consistently in a fighting game called *Sparking Zero*. If you're into frame data, reaction windows, and the pain of trying to counter in a 60 FPS environment (with or without lag), this might help you out too.
 
-It's not a polished product, not even indie-dev-tier — just something I threw together a while ago and decided to share. Use it, tweak it, ignore it... totally up to you.
+It's not a polished product, not even indie-dev-tier — just something I threw together some time ago and decided to share. Use it, tweak it, ignore it... totally up to you.
 
 ## What Does It Do?
 
@@ -37,14 +37,14 @@ There’s a slider at the bottom for adjusting the volume of the cue sounds. Han
 ## 🛠️ Requirements (if you plan on modifying it)
 
 * Python 3
-* `pygame`
-* `pyperclip` (for copy-pasting color codes)
+* pygame
+* pyperclip (for copy-pasting color codes)
 
 You can install the dependencies with:
 
-```bash
+bash
 pip install pygame pyperclip
-```
+
 
 ## Running It
 
@@ -52,9 +52,9 @@ The releases page has the exe file which you can try on windows, there is no mac
 
 or alternatively you can just run the Python script:
 
-```bash
+bash
 python super_counter_metronome.py
-```
+
 
 
 It'll show an intro screen, let you mess with colors if you want, and then start the metronome.
